@@ -1,3 +1,4 @@
 # Money_Ballers
 
-Download word document to view Outline
+## Machine Learning: 
+   * Download word document to view Outline
