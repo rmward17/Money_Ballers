@@ -21,11 +21,12 @@
 * Created a uniqueID field that concatenated playerID, yearID, and teamID so that it could be used as the PRIMARY KEY
   * This sufficed for the salaries table
   * This uniqueID was still not unique in the batting table
-    * I dropped PRIMARY KEY and FOREIGN KEY from the code for the batting table
+    * PRIMARY KEY and FOREIGN KEY Deleted from the code for the batting table
   * uniqueID was not created for the player table
     * playerID was used as the PRIMARY KEY
 #### Question(s)
-* How will this be handled in the join(s)?          
+* How will this be handled in the join(s)?
+* Should we revisit the ERD?
 
 ### Import CSVs
 * Right click each table and click Import/Export csv
