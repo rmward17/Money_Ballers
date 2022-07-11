@@ -3,7 +3,7 @@ CREATE TABLE salaries (
 	yearID VARCHAR(4) NOT NULL,
 	teamID VARCHAR(3) NOT NULL,
 	lgID VARCHAR (2) NOT NULL,
-    playerID VARCHAR(25),
+    	playerID VARCHAR(25),
 	salary INT,
 	PRIMARY KEY (uniqueID)
 	);
@@ -18,7 +18,7 @@ CREATE TABLE batting (
 	stint INT NOT NULL,
 	teamID VARCHAR(3) NOT NULL,
 	lgID VARCHAR (2) NOT NULL,
-    games INT NOT NULL,
+    	games INT NOT NULL,
 	at_bats INT NOT NULL,
 	runs INT NOT NULL,
 	hits INT NOT NULL,
@@ -46,7 +46,7 @@ CREATE TABLE people (
 	birthMonth VARCHAR(2),
 	birthDay VARCHAR(2),
 	birthCountry VARCHAR(50),
-    birthState VARCHAR(50),
+   	birthState VARCHAR(50),
 	birthCity VARCHAR(50),
 	deathYear VARCHAR(4),
 	deathMonth VARCHAR(2),
