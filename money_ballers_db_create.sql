@@ -6,7 +6,7 @@ CREATE TABLE salaries (
 	yearID VARCHAR(4) NOT NULL,
 	teamID VARCHAR(3) NOT NULL,
 	lgID VARCHAR (2) NOT NULL,
-    playerID VARCHAR(25),
+    	playerID VARCHAR(25),
 	salary INT,
 	PRIMARY KEY (uniqueID)
 	);
@@ -25,7 +25,7 @@ CREATE TABLE batting (
 	stint INT NOT NULL,
 	teamID VARCHAR(3) NOT NULL,
 	lgID VARCHAR (2) NOT NULL,
-    games INT NOT NULL,
+    	games INT NOT NULL,
 	at_bats INT NOT NULL,
 	runs INT NOT NULL,
 	hits INT NOT NULL,
@@ -57,7 +57,7 @@ CREATE TABLE people (
 	birthMonth VARCHAR(2),
 	birthDay VARCHAR(2),
 	birthCountry VARCHAR(50),
-    birthState VARCHAR(50),
+    	birthState VARCHAR(50),
 	birthCity VARCHAR(50),
 	deathYear VARCHAR(4),
 	deathMonth VARCHAR(2),
@@ -123,7 +123,7 @@ SELECT s.uniqueID,
 	s.yearID,
 	s.teamID,
 	s.lgID,
-    s.playerID,
+    	s.playerID,
 	s.salary,
 	sum(b.stint) stint, --do we need this; It's ordinal, I think, as to where the player was 1st, 2nd, 3rd, etc
 	sum(b.games) games, 
@@ -151,7 +151,7 @@ Group By s.uniqueID
 Order By s.uniqueID;
 -- Check Data
 select count(*) from Salary_Batting;
-se
+
 -- Drop table before recreating table with code below
 Drop table Salary_Batting_People;
 -- Join Salary_Batting with people
@@ -159,7 +159,7 @@ SELECT sb.uniqueID,
 	sb.yearID,
 	sb.teamID,
 	sb.lgID,
-    sb.playerID,
+    	sb.playerID,
 	sb.salary,
 	sb.games,
 	sb.bats,
@@ -182,7 +182,7 @@ SELECT sb.uniqueID,
 	ppl.birthMonth,
 	ppl.birthDay,
 	ppl.birthCountry,
-    ppl.birthState,
+    	ppl.birthState,
 	ppl.birthCity,
 	ppl.deathYear,
 	ppl.deathMonth,
