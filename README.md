@@ -49,10 +49,10 @@ By using aggregate function SUM(), the batting statistics can be summed for Uniq
   * Appears the salaries table may have some bad data
     * Salaries table has incorrect teamID for a given year (ie Salaries has a player playing for the Braves in 2015, but batting says they played for the Braves in 2014)
     * Wrong year(s) altogether (ie salaries table has a player playing from 2013-2015 when the batting table has stats from 1999-2002 and people table says Final Game was 2002
-* Null record count:
-  * Total: 996 of 26428
-  * 2015: 3 of 817
-  * 2016: 48 of 853
+  * Null record count:
+    * Total: 996 of 26428
+    * 2015: 3 of 817
+    * 2016: 48 of 853
 * What do we do with records with null statistics? 
   * Delete
   * Keep and do nothing
