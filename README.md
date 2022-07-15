@@ -96,6 +96,7 @@ By using aggregate function SUM(), the batting statistics can be summed for Uniq
 
 [Neural Network](https://github.com/rmward17/Money_Ballers/blob/b0e811df45e91b197d8bbeee2e54c713f865b28a/Machine%20Learning/Final_Project_Notebooks/NN_Draft1.ipynb)
 
+* The work will be done in Google-Colab
 Presentation:
 
 - Selected Topic: Our team is analyzing MLB player statistics including but not limited to: RBIs, Hits, On Base Percentage, Batting Average, Wins, Doubles, Triples, Home Runs, and position, to predict average salaries and determine if and how players are being over or under compensated within 10% of the predicted salary
