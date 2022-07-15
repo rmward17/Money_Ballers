@@ -12,7 +12,7 @@ database
 * Open Query tool under Money_Ballers database
 * Run SQL code found in money_ballers_db_create.sql
 
- <money_ballers_db_create.sql>(https://github.com/rmward17/Money_Ballers/blob/0126ba196d332f99e92eb8d4c00673529df415e4/Database/money_ballers_db_create.sql)
+ !<money_ballers_db_create.sql>(https://github.com/rmward17/Money_Ballers/blob/0126ba196d332f99e92eb8d4c00673529df415e4/Database/money_ballers_db_create.sql)
  
 * Code includes Create table script for each of 3 tables and select statements to check post csv import that all of the data was imported
 * 3 tables:
