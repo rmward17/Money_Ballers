@@ -1,5 +1,8 @@
 # Money_Ballers
 
+ Machine-Learning
+## Machine Learning: 
+   * Download word document to view Outline
 Presentation:
 
 - Selected Topic: Our team is analyzing MLB player statistics including but not limited to: RBIs, Hits, On Base Percentage, Batting Average, Wins, Doubles, Triples, Home Runs, and position, to predict average salaries and determine if and how players are being over or under compensated within 10% of the predicted salary
@@ -24,3 +27,4 @@ Presentation:
   -	Evenly divide work left over from scheduled class time and schedule an extra meeting session if need be
   -	If you are struggling with your work, ask for help sooner rather than later 
   -	If you have an idea, please share that idea!!
+main
