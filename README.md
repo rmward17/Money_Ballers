@@ -8,6 +8,11 @@ database
 * Created on the PostgreSQL 11 server
 * Created with the name "Money_Ballers
 
+### ERD
+An ERD diagram was created. See ERD below.
+
+![ERDatabaseTable.png](https://github.com/rmward17/Money_Ballers/blob/b0e811df45e91b197d8bbeee2e54c713f865b28a/ERD/ERBDatabaseTable.png)
+
 ### Create tables
 * Open Query tool under Money_Ballers database
 * Run SQL code found in money_ballers_db_create.sql. This can be viewed by clicking the link below.
