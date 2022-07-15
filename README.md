@@ -10,7 +10,7 @@ database
 
 ### Create tables
 * Open Query tool under Money_Ballers database
-* Run SQL code found in money_ballers_db_create.sql
+* Run SQL code found in money_ballers_db_create.sql. This can be viewed by clicking the link below.
 
  [Create Database: Money_Ballers](https://github.com/rmward17/Money_Ballers/blob/0126ba196d332f99e92eb8d4c00673529df415e4/Database/money_ballers_db_create.sql)
  
@@ -42,11 +42,23 @@ By using aggregate function SUM(), the batting statistics can be summed for Uniq
 ### Join Tables
 * Join batting table to salaries table, using aggregate SUM() for statistic fields (RBI, Games, At bats, etc)
 * Join people table to the resulting table
+* The sql code can be viewed following the below link. 
+
+[Create Database: Money_Ballers](https://github.com/rmward17/Money_Ballers/blob/0126ba196d332f99e92eb8d4c00673529df415e4/Database/money_ballers_db_create.sql)
+
 * Run any necessary Quality assurance or Quality control check queries
+* Some sample queries can be found in the sql code below.
+
+[QA_QC Queries](https://github.com/rmward17/Money_Ballers/blob/b0e811df45e91b197d8bbeee2e54c713f865b28a/Database/QA_QC.sql)
 
 ### Export as csv
-* Export table as a whole
-* Export a subset of the table for testing and training, in this case 2015
+* Export table as a whole. The CSV can be downloaded by following the link below.
+
+[Salary_Batting_People](https://github.com/rmward17/Money_Ballers/blob/b0e811df45e91b197d8bbeee2e54c713f865b28a/Database/salary_batting_people.csv)
+
+* Export a subset of the table for testing and training, in this case 2015. The CSV can be viewed or downloaded following the link below.
+
+[Salary_Batting_People](https://github.com/rmward17/Money_Ballers/blob/b0e811df45e91b197d8bbeee2e54c713f865b28a/Database/salary_batting_people_2015.csv)
 
 ### Known Data Issues
 * Null values for batting statistics
@@ -66,7 +78,21 @@ By using aggregate function SUM(), the batting statistics can be summed for Uniq
 
  Machine-Learning
 ## Machine Learning: 
-   * Download word document to view Outline
+* First we created a diagram of our Machine Learning Process. This can be viewed below.
+
+![Money_ballers_ML_DIAGRAM.drawio.png](https://github.com/rmward17/Money_Ballers/blob/b0e811df45e91b197d8bbeee2e54c713f865b28a/Machine%20Learning/Money_ballers_ML_DIAGRAM.drawio.png)
+
+* Then we created an outline showing what features will be included as the y variable and X variables. Download word document to view Outline or view raw by following the link below.
+   
+[Machine Learning Outline](https://github.com/rmward17/Money_Ballers/blob/b0e811df45e91b197d8bbeee2e54c713f865b28a/Machine%20Learning/Machine%20Learning%20Model%20OUTLINE.docx)
+
+* We will investigate 4 different Machine Learning techniques. Multiple Linear Regression and Random Forest will be of particular interest but we wanted to create K Means and Neural Network models for comparison. Follow the links below to view the code. They are currently a work in progress and not complete.
+
+[Multiple Linear Regression](https://github.com/rmward17/Money_Ballers/blob/b0e811df45e91b197d8bbeee2e54c713f865b28a/Machine%20Learning/Final_Project_Notebooks/MultipleLinearRegression_Draft1.ipynb)
+[Random Forest](https://github.com/rmward17/Money_Ballers/blob/b0e811df45e91b197d8bbeee2e54c713f865b28a/Machine%20Learning/Final_Project_Notebooks/RandomForest_Draft1.ipynb)
+[KMeans](https://github.com/rmward17/Money_Ballers/blob/b0e811df45e91b197d8bbeee2e54c713f865b28a/Machine%20Learning/Final_Project_Notebooks/KMeans_Draft1.ipynb)
+[Neural Network](https://github.com/rmward17/Money_Ballers/blob/b0e811df45e91b197d8bbeee2e54c713f865b28a/Machine%20Learning/Final_Project_Notebooks/NN_Draft1.ipynb)
+
 Presentation:
 
 - Selected Topic: Our team is analyzing MLB player statistics including but not limited to: RBIs, Hits, On Base Percentage, Batting Average, Wins, Doubles, Triples, Home Runs, and position, to predict average salaries and determine if and how players are being over or under compensated within 10% of the predicted salary
