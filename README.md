@@ -58,7 +58,7 @@ By using aggregate function SUM(), the batting statistics can be summed for Uniq
 
 * Export a subset of the table for testing and training, in this case 2015. The CSV can be viewed or downloaded following the link below.
 
-[Salary_Batting_People](https://github.com/rmward17/Money_Ballers/blob/b0e811df45e91b197d8bbeee2e54c713f865b28a/Database/salary_batting_people_2015.csv)
+[Salary_Batting_People_2015](https://github.com/rmward17/Money_Ballers/blob/b0e811df45e91b197d8bbeee2e54c713f865b28a/Database/salary_batting_people_2015.csv)
 
 ### Known Data Issues
 * Null values for batting statistics
