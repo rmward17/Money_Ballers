@@ -5,6 +5,7 @@
 - Selected Topic: Our team is analyzing MLB player statistics including but not limited to: RBIs, Hits, On Base Percentage, Batting Average, Wins, Doubles, Triples, Home Runs, and position, to predict average salaries and determine if and how players are being over or under compensated within 10% of the predicted salary
 - Reasoning: We selected this topic because our team has a few baseball fans and there is plenty of baseball data out there. It is one sport that has been analyzed many times and there are many data science resources out there to help inspire and guide us during our project.
 - Data sources: In our search for data, we went to Kaggle.com and there we found a plethora of baseball data and even other similar projects to what we are aiming to do. We found multiple .csv files from 1985 – 2016 on salary data and player stats including pitching and batting stats
+- Data exploration: Using tableau and excel, we looked at all of the data available and built a few visualization to understand what data we had, how we could combine our multiple soures of data, and facilitated disucssions on how exactly we wanted to approach our topic and questions
 - Questions we are attempting to answer:
 1. What are the primary factors in determining a high or low salary?
 2. Does inflation have an impact on MLB salaries over time?
@@ -24,7 +25,9 @@
   -	Evenly divide work left over from scheduled class time and schedule an extra meeting session if need be
   -	If you are struggling with your work, ask for help sooner rather than later 
   -	If you have an idea, please share that idea!!
-  
+ 
+[Presentation Slides](https://docs.google.com/presentation/d/1f5lwUxhIlIqjeIY4Z7r7QsO3mZk6pMc8NXe4Id-lalA/edit#slide=id.gd5b15f0a3_5_26)
+
 ## Database
 * Created using pgAdmin
 * Created on the PostgreSQL 11 server
