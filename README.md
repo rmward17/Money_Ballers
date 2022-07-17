@@ -117,7 +117,10 @@ By using aggregate function SUM(), the batting statistics can be summed for Uniq
 
 * We will investigate 4 different Machine Learning techniques. Multiple Linear Regression and Random Forest will be of particular interest but we wanted to create K Means and Neural Network models for comparison. Follow the links below to view the code. They are currently a work in progress and not complete.
 
-[Multiple Linear Regression](https://github.com/rmward17/Money_Ballers/blob/b0e811df45e91b197d8bbeee2e54c713f865b28a/Machine%20Learning/Final_Project_Notebooks/MultipleLinearRegression_Draft1.ipynb)
+[Multiple Linear Regression](https://github.com/rmward17/Money_Ballers/blob/main/Machine%20Learning/MultipleLinearRegression_Draft2.ipynb)
+
+Notes:
+- The data is set up well for this model however, the R-Squared is very low after the first attempt (version = Draft2). Next steps are to analyze the parameters currently in the model to see which ones may not be statistically significant and also review the paramters we left out that could potentially bring up the R-Squared value.
 
 [Random Forest](https://github.com/rmward17/Money_Ballers/blob/b0e811df45e91b197d8bbeee2e54c713f865b28a/Machine%20Learning/Final_Project_Notebooks/RandomForest_Draft1.ipynb)
 
