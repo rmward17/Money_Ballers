@@ -108,7 +108,7 @@ By using aggregate function SUM(), the batting statistics can be summed for Uniq
 
 We also have 58 known outliers. 
 
-![image](https://user-images.githubusercontent.com/98041751/179867118-e8837d98-9217-4251-9479-598a0c448144.png)
+![image](https://user-images.githubusercontent.com/98041751/179867298-29947f3a-ebe9-4cfc-a9bf-74ca38109805.png)
 
 
 
