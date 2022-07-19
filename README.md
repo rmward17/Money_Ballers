@@ -107,17 +107,9 @@ By using aggregate function SUM(), the batting statistics can be summed for Uniq
 * Another note about uniqueIDs: It appears that many of the duplicated uniqueIDs don't even have a record in the salaries table
 
 We also have 58 known outliers. 
-Outliers 	
-	 Amount 
-QTL1	 520,000.00 
-QTL3	 4,500,000.00 
-IQR	 3,980,000.00 
-Lower limit	 (5,450,000.00)
-higher limit	 10,470,000.00 
-average (with higher limit)	 4,309,747.18 
-average (without higher limit)	 3,143,880.42 
-count of outiers	 58 
-![image](https://user-images.githubusercontent.com/98041751/179866625-45025e90-f957-4de9-8229-fa0c41981f4a.png)
+
+![image](https://user-images.githubusercontent.com/98041751/179866861-0d3dfd8d-58a8-4233-a505-6f41a497fca6.png)
+
 
 
 ## Machine Learning: 
