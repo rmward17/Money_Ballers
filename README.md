@@ -28,7 +28,6 @@
  
 [Presentation Slides](https://docs.google.com/presentation/d/1f5lwUxhIlIqjeIY4Z7r7QsO3mZk6pMc8NXe4Id-lalA/edit#slide=id.gd5b15f0a3_5_26)
 
-[Dashboard](https://public.tableau.com/app/profile/jonathan.morales3105/viz/MONEY_BALLERS_DASH/Concept_Dash)
 
 ## Database
 * Created using pgAdmin
@@ -142,6 +141,10 @@ Notes:
 [Neural Network](https://github.com/rmward17/Money_Ballers/blob/b0e811df45e91b197d8bbeee2e54c713f865b28a/Machine%20Learning/Final_Project_Notebooks/NN_Draft1.ipynb)
 
 * The work will be done in Google-Colab
+
+## Dashboard
+
+[Dashboard](https://public.tableau.com/app/profile/jonathan.morales3105/viz/MONEY_BALLERS_DASH/Concept_Dash)
 
 
 
