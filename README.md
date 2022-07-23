@@ -28,6 +28,8 @@
  
 [Presentation Slides](https://docs.google.com/presentation/d/1f5lwUxhIlIqjeIY4Z7r7QsO3mZk6pMc8NXe4Id-lalA/edit#slide=id.gd5b15f0a3_5_26)
 
+[Dashboard](https://public.tableau.com/app/profile/jonathan.morales3105/viz/MONEY_BALLERS_DASH/Concept_Dash)
+
 ## Database
 * Created using pgAdmin
 * Created on the PostgreSQL 11 server
