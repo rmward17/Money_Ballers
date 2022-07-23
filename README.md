@@ -136,7 +136,7 @@ Notes:
 Notes:
 - When we ran the multiple linear regression model, the R-Squared value was very low. Since this is not ideal, we tried 2 different decision tree regression models. One is a Decision Tree Regressor and the other is a Random Forest. Originally, the accuracy scores were not that great but we back into the data and took out the pitchers as their salaries are not effected by the batting statistics that we use. Once those were removed, we re ran both models again and the accuracy scores were much better. We ran tested and trained these models on 2014 batting data with 2015 salaries so the next task is to run the model on 2015 batting stats and then compare them to the 2016 salary data. 
 
-[KMeans](https://github.com/rmward17/Money_Ballers/blob/b0e811df45e91b197d8bbeee2e54c713f865b28a/Machine%20Learning/Final_Project_Notebooks/KMeans_Draft1.ipynb)
+[KMeans](https://github.com/rmward17/Money_Ballers/blob/abb0a403bd01b7399dd373210c57a3001f9783d8/Practice_Code/KMeans_pitching_data.ipynb)
 
 [Neural Network](https://github.com/rmward17/Money_Ballers/blob/b0e811df45e91b197d8bbeee2e54c713f865b28a/Machine%20Learning/Final_Project_Notebooks/NN_Draft1.ipynb)
 
