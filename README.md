@@ -124,7 +124,7 @@ We also have 58 known outliers.
    
 [Machine Learning Outline](https://github.com/rmward17/Money_Ballers/blob/b0e811df45e91b197d8bbeee2e54c713f865b28a/Machine%20Learning/Machine%20Learning%20Model%20OUTLINE.docx)
 
-* We will investigate 4 different Machine Learning techniques. Multiple Linear Regression and Random Forest will be of particular interest but we wanted to create K Means and Neural Network models for comparison. Follow the links below to view the code. They are currently a work in progress and not complete.
+* We will investigate 4 different Machine Learning techniques. Multiple Linear Regression and Random Forest and Decision Tree Regression will be of particular interest but we wanted to create K Means and Neural Network models for comparison. Follow the links below to view the code. They are currently a work in progress and not complete.
 
 [Multiple Linear Regression](https://github.com/rmward17/Money_Ballers/blob/main/Machine%20Learning/MultipleLinearRegression_Draft2.ipynb)
 
