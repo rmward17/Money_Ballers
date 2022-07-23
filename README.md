@@ -144,7 +144,7 @@ Notes:
 
 ## Dashboard
 
-[Dashboard](https://public.tableau.com/app/profile/jonathan.morales3105/viz/MONEY_BALLERS_DASH/Concept_Dash)
+[Dashboard](https://public.tableau.com/app/profile/jeremy6008/viz/MONEY_BALLERS_DASH_16586038724630/HighestPaidPlayer2015?publish=yes)
 
 
 
