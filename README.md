@@ -144,7 +144,7 @@ Notes:
 
 ## Dashboard
 
-[Dashboard](https://public.tableau.com/app/profile/jeremy6008/viz/MONEY_BALLERS_DASH_16586038724630/HighestPaidPlayer2015?publish=yes)
+[Dashboard](https://public.tableau.com/views/MONEY_BALLERS_DASH/SALARYSTORY2?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 
 
