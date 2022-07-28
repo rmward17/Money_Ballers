@@ -45,11 +45,14 @@ An ERD diagram was created. See ERD below.
 
  [Create Database: Money_Ballers](https://github.com/rmward17/Money_Ballers/blob/0126ba196d332f99e92eb8d4c00673529df415e4/Database/money_ballers_db_create.sql)
  
-* Code includes Create table script for each of 3 tables and select statements to check post csv import that all of the data was imported
+* Code includes Create table script for each of 5 tables and select statements to check post csv import that all of the data was imported
 * 3 tables:
   * salaries
   * batting
+  * fielding
+  * pitching
   * people
+  
 * Datatypes for dates were created as VARCHAR and VARCHAR sizes were determined based roughly on how many characters each field needed to hold
   * Data did not load with the DATE data type. 
   * We can "ALTER TABLE ALTER COLUMN" fairly easily to set all the Dates to the correct datatype.
@@ -72,6 +75,7 @@ By using aggregate function SUM(), the batting statistics can be summed for Uniq
 
 ### Join Tables
 * Join batting table to salaries table, using aggregate SUM() for statistic fields (RBI, Games, At bats, etc)
+* Join fielding table to the resulting table
 * Join people table to the resulting table
 * The sql code can be viewed following the below link. 
 
@@ -85,11 +89,11 @@ By using aggregate function SUM(), the batting statistics can be summed for Uniq
 ### Export as csv
 * Export table as a whole. The CSV can be downloaded by following the link below.
 
-[Salary_Batting_People](https://github.com/rmward17/Money_Ballers/blob/b0e811df45e91b197d8bbeee2e54c713f865b28a/Database/salary_batting_people.csv)
+[Salary_Batting_Fielding_People](https://github.com/rmward17/Money_Ballers/blob/860c5216bff0dd6fe8cab959b6bb00c498a8c2f6/Machine%20Learning/Practice_Code/salary_batting_fielding_people.csv)
 
 * Export a subset of the table for testing and training, in this case 2015. The CSV can be viewed or downloaded following the link below.
 
-[Salary_Batting_People_2015](https://github.com/rmward17/Money_Ballers/blob/b0e811df45e91b197d8bbeee2e54c713f865b28a/Database/salary_batting_people_2015.csv)
+[Salary_Batting_Fielding_People_2015](https://github.com/rmward17/Money_Ballers/blob/860c5216bff0dd6fe8cab959b6bb00c498a8c2f6/Machine%20Learning/Practice_Code/salary_batting_fielding_people_2015.csv)
 
 ### Known Data Issues
 * Null values for batting statistics
