@@ -128,6 +128,7 @@ We also have 58 known outliers.
 
 [Multiple Linear Regression](https://github.com/rmward17/Money_Ballers/blob/main/Machine%20Learning/MultipleLinearRegression_Draft2.ipynb)
 
+[Multiple Linear Regression No Pitchers](https://github.com/rmward17/Money_Ballers/blob/2ebde0dd252cf2ea68f865847ef986725a65cb12/Practice_Code/MultipleLinearRegression_No_Pitchers.ipynb)
 Notes:
 - The data is set up well for this model however, the R-Squared is very low after the first attempt (version = Draft2). Next steps are to analyze the parameters currently in the model to see which ones may not be statistically significant and also review the paramters we left out that could potentially bring up the R-Squared value.
 
