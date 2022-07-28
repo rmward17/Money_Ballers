@@ -46,7 +46,7 @@ An ERD diagram was created. See ERD below.
  [Create Database: Money_Ballers](https://github.com/rmward17/Money_Ballers/blob/e3921e05cd7f61ebc547a60939888403a79eac8b/Database/money_ballers_db_create.sql)
  
 * Code includes Create table script for each of 5 tables and select statements to check post csv import that all of the data was imported
-* 3 tables:
+* 5 tables:
   * salaries
   * batting
   * fielding
