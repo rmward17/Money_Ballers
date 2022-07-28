@@ -6,11 +6,10 @@ CREATE TABLE salaries (
 	yearID VARCHAR(4) NOT NULL,
 	teamID VARCHAR(3) NOT NULL,
 	lgID VARCHAR (2) NOT NULL,
-    	playerID VARCHAR(25),
+    playerID VARCHAR(25),
 	salary INT,
 	PRIMARY KEY (uniqueID)
 	);
-
 -- After importing csv, check that data imported correctly
 select count(*) from salaries; -- Looking for 26428
 select * from salaries;
@@ -25,7 +24,7 @@ CREATE TABLE batting (
 	stint INT NOT NULL,
 	teamID VARCHAR(3) NOT NULL,
 	lgID VARCHAR (2) NOT NULL,
-    	games INT NOT NULL,
+    games INT NOT NULL,
 	at_bats INT NOT NULL,
 	runs INT NOT NULL,
 	hits INT NOT NULL,
@@ -37,16 +36,41 @@ CREATE TABLE batting (
 	caught_stealing INT NOT NULL,
 	walks INT NOT NULL,
 	strike_outs INT NOT NULL,
-	international_walks INT,
+	intentional_walks INT,
 	hit_by_pitch INT,
 	sacrifice_bunt INT,
 	sacrifice_flies INT,
 	hit_into_double_plays INT
 	);
-
 -- After importing csv, check that data imported correctly
 select count(*) from batting; -- Looking for 48241
 select * from batting;
+
+-- Drop table before recreating table
+Drop Table fielding;
+-- Create fielding table
+CREATE TABLE fielding (
+	uniqueID VARCHAR(25) NOT NULL,
+	playerID VARCHAR(25) NOT NULL,
+	yearID VARCHAR(4) NOT NULL,
+	fieldingyearID VARCHAR(4) NOT NULL,
+	stint INT,
+	teamID VARCHAR(3) NOT NULL,
+	lgID VARCHAR (2) NOT NULL,
+    fielding_position INT,
+	games INT,
+	games_started INT,
+	innouts INT,
+	putouts INT,
+	assists INT,
+	errors INT,
+	double_plays INT,
+	passed_balls INT,
+	wp INT,
+	stolen_bases INT,
+	caught_stealing INT,
+	zr INT
+	);
 
 -- Drop table before recreating table
 Drop table people;
@@ -57,7 +81,7 @@ CREATE TABLE people (
 	birthMonth VARCHAR(2),
 	birthDay VARCHAR(2),
 	birthCountry VARCHAR(50),
-    	birthState VARCHAR(50),
+    birthState VARCHAR(50),
 	birthCity VARCHAR(50),
 	deathYear VARCHAR(4),
 	deathMonth VARCHAR(2),
@@ -78,7 +102,6 @@ CREATE TABLE people (
 	bbrefID VARCHAR(25),
 	PRIMARY KEY (playerID)
 	);
-
 -- After importing csv, check that data imported correctly
 select count(*) from people; -- Looking for 20370
 select * from people;
@@ -123,7 +146,7 @@ SELECT s.uniqueID,
 	s.yearID,
 	s.teamID,
 	s.lgID,
-    	s.playerID,
+    s.playerID,
 	s.salary,
 	sum(b.stint) stint, --do we need this; It's ordinal, I think, as to where the player was 1st, 2nd, 3rd, etc
 	sum(b.games) games, 
@@ -138,7 +161,7 @@ SELECT s.uniqueID,
 	sum(b.caught_stealing) caught_stealing,
 	sum(b.walks) walks, 
 	sum(b.strike_outs) strike_outs,
-	sum(b.international_walks) international_walks,
+	sum(b.intentional_walks) intentional_walks,
 	sum(b.hit_by_pitch) hit_by_pitch,
 	sum(b.sacrifice_bunt) sacrifice_bunt,
 	sum(b.sacrifice_flies) sacrifice_flies,
@@ -159,7 +182,7 @@ SELECT sb.uniqueID,
 	sb.yearID,
 	sb.teamID,
 	sb.lgID,
-    	sb.playerID,
+    sb.playerID,
 	sb.salary,
 	sb.games,
 	sb.bats,
@@ -182,7 +205,7 @@ SELECT sb.uniqueID,
 	ppl.birthMonth,
 	ppl.birthDay,
 	ppl.birthCountry,
-    	ppl.birthState,
+    ppl.birthState,
 	ppl.birthCity,
 	ppl.deathYear,
 	ppl.deathMonth,
@@ -218,7 +241,124 @@ WHERE yearid = '2015';
 -- Check data
 select count(*) from salary_batting_people_2015; -- should match the salaries_2015 table
 
+-- Drop table before recreating table with code below
+Drop table salary_batting_fielding;
+-- Create salary_batting_fielding table
+SELECT sb.uniqueID,
+	sb.yearID,
+	sb.teamID,
+	sb.lgID,
+    sb.playerID,
+	sb.salary,
+	sb.stint, --do we need this; It's ordinal, I think, as to where the player was 1st, 2nd, 3rd, etc
+	sb.games games, 
+	sb.at_bats bats,
+	sb.runs runs,
+	sb.hits hits,
+	sb.doubles doubles,
+	sb.triples triples,
+	sb.homeruns homeruns,
+	sb.rbi rbi,
+	sb.stolen_bases stolen_bases,
+	sb.caught_stealing caught_stealing,
+	sb.walks walks, 
+	sb.strike_outs strike_outs,
+	sb.intentional_walks intentional_walks,
+	sb.hit_by_pitch hit_by_pitch,
+	sb.sacrifice_bunt sacrifice_bunt,
+	sb.sacrifice_flies sacrifice_flies,
+	sb.hit_into_double_plays hit_into_double_plays,
+	f.fielding_position fielding_position,
+	f.innouts,
+	f.assists,
+	f.errors,
+	f.double_plays
+INTO Salary_Batting_Fielding
+From Salary_Batting as sb
+Left Join fielding as f 
+On sb.uniqueID = f.uniqueID
+Group By sb.uniqueID
+Order By sb.uniqueID;
 
+-- Drop before recreating table
+Drop table salary_batting_fielding_people;
+-- Create salary_batting_fielding_people table
+SELECT sbf.uniqueID,
+	sbf.yearID,
+	sbf.teamID,
+	sbf.lgID,
+    sbf.playerID,
+	sbf.salary,
+	sbf.games,
+	sbf.bats,
+	sbf.runs,
+	sbf.hits,
+	sbf.doubles,
+	sbf.triples,
+	sbf.homeruns,
+	sbf.rbi,
+	sbf.stolen_bases,
+	sbf.caught_stealing,
+	sbf.walks,
+	sbf.strike_outs,
+	sbf.intentional_walks,
+	sbf.hit_by_pitch,
+	sbf.sacrifice_bunt,
+	sbf.sacrifice_flies,
+	sbf.hit_into_double_plays,
+	sbf.fielding_position fielding_position,
+	sbf.innouts,
+	sbf.assists,
+	sbf.errors,
+	sbf.double_plays
+	ppl.birthYear,
+	ppl.birthMonth,
+	ppl.birthDay,
+	ppl.birthCountry,
+    ppl.birthState,
+	ppl.birthCity,
+	ppl.deathYear,
+	ppl.deathMonth,
+	ppl.deathDay,
+	ppl.deathCountry,
+	ppl.deathState,
+	ppl.deathCity,
+	ppl.nameFirst,
+	ppl.nameLast,
+	ppl.nameGiven,
+	ppl.weight,
+	ppl.height,
+	ppl.bats bats_hand,
+	ppl.throws throws_hand,
+	ppl.debut,
+	ppl.finalGame,
+	ppl.retroID,
+	ppl.bbrefID
+INTO Salary_Batting_Fielding_People
+From salary_batting_fielding as sbf
+Left Join people as ppl 
+On sbf.playerID = ppl.playerID;
+-- Drop table before recreating
+Drop table baseball_predictions;
+-- Create baseball_predictions table
+CREATE TABLE baseball_predictions (
+	playerID VARCHAR(25) NOT NULL,
+	playername VARCHAR(25) NOT NULL,
+	salary Int,
+	prediction Int,
+	excess Int,
+	bats INT,
+	runs INT,
+	hits INT,
+	doubles INT,
+	triples INT,
+	homeruns INT,
+	rbi INT,
+	walks INT,
+	PRIMARY KEY (playerID)
+	);
+	
+	
 
 
 
