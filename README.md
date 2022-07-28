@@ -43,7 +43,7 @@ An ERD diagram was created. See ERD below.
 * Open Query tool under Money_Ballers database
 * Run SQL code found in money_ballers_db_create.sql. This can be viewed by clicking the link below.
 
- [Create Database: Money_Ballers](https://github.com/rmward17/Money_Ballers/blob/0126ba196d332f99e92eb8d4c00673529df415e4/Database/money_ballers_db_create.sql)
+ [Create Database: Money_Ballers](https://github.com/rmward17/Money_Ballers/blob/e3921e05cd7f61ebc547a60939888403a79eac8b/Database/money_ballers_db_create.sql)
  
 * Code includes Create table script for each of 5 tables and select statements to check post csv import that all of the data was imported
 * 3 tables:
@@ -79,7 +79,7 @@ By using aggregate function SUM(), the batting statistics can be summed for Uniq
 * Join people table to the resulting table
 * The sql code can be viewed following the below link. 
 
-[Create Database: Money_Ballers](https://github.com/rmward17/Money_Ballers/blob/0126ba196d332f99e92eb8d4c00673529df415e4/Database/money_ballers_db_create.sql)
+[Create Database: Money_Ballers](https://github.com/rmward17/Money_Ballers/blob/e3921e05cd7f61ebc547a60939888403a79eac8b/Database/money_ballers_db_create.sql)
 
 * Run any necessary Quality assurance or Quality control check queries
 * Some sample queries can be found in the sql code below.
