@@ -2,6 +2,10 @@
 
 ## Presentation:
 
+Please follow the link below to view our presentation slides:
+
+[Presentation Slides](https://docs.google.com/presentation/d/1f5lwUxhIlIqjeIY4Z7r7QsO3mZk6pMc8NXe4Id-lalA/edit#slide=id.gd5b15f0a3_5_26)
+
 ### Selected Topic
 
 Our team is analyzing MLB player statistics including but not limited to: RBIs, Hits, On Base Percentage, Batting Average, Wins, Doubles, Triples, Home Runs, and position, to predict average salaries and determine if and how players are being over or under compensated within 10% of the predicted salary
@@ -26,24 +30,21 @@ Using tableau and excel, we looked at all of the data available and built a few 
 
 ### Potential Future areas of scope
 
-    - Comparing rookie data to draft rankings
-    - Predicting likelihood of injury
-    - Predicting likelihood of Hall of Fame level success
+* Comparing rookie data to draft rankings
+* Predicting likelihood of injury
+* Predicting likelihood of Hall of Fame level success
 
 ### Communication Protcol
 
-  -	Primary communication platform: Slack 
-  -	Primary technology to be used: PgAdmin, Google Colab, Tableau
-  -	Send a slack message to the group about what you are working on in the GitHub and on what branch
-  -	Send a follow up message when you are done working on the branch
-  -	Decide as a group when a branch is ready to merged to the main
-  -	Evenly divide work left over from scheduled class time and schedule an extra meeting session if need be
-  -	If you are struggling with your work, ask for help sooner rather than later 
-  -	If you have an idea, please share that idea!!
+* Primary communication platform: Slack 
+* Primary technology to be used: PgAdmin, Google Colab, Tableau
+* Send a slack message to the group about what you are working on in the GitHub and on what branch
+* Send a follow up message when you are done working on the branch
+* Decide as a group when a branch is ready to merged to the main
+* Evenly divide work left over from scheduled class time and schedule an extra meeting session if need be
+* If you are struggling with your work, ask for help sooner rather than later 
+* If you have an idea, please share that idea!!
  
-[Presentation Slides](https://docs.google.com/presentation/d/1f5lwUxhIlIqjeIY4Z7r7QsO3mZk6pMc8NXe4Id-lalA/edit#slide=id.gd5b15f0a3_5_26)
-
-
 ## Database
 
 * Created using pgAdmin
