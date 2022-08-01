@@ -163,6 +163,8 @@ Notes:
 
 ## Dashboard
 
+[Dashboard](https://public.tableau.com/views/MONEY_BALLERS_DASH/SALARYSTORY2?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+
 Please follow the link below to view our Dashboard of results. It was created using Tableau and contains 3 tabs. 
 
 A) Cover and Title page
@@ -182,8 +184,4 @@ C) Machine Learning Analysis
 * 2 Residual plots
 * Top 10 Overpaid Players
 * Top 10 Underpaid Players
-    
-[Dashboard](https://public.tableau.com/views/MONEY_BALLERS_DASH/SALARYSTORY2?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
-
-
-
+  
