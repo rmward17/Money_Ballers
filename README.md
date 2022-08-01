@@ -47,6 +47,8 @@ Using tableau and excel, we looked at all of the data available and built a few 
  
 ## Database
 
+### Technology
+
 * Created using pgAdmin
 * Created on the PostgreSQL 11 server
 
