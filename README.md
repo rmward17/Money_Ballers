@@ -142,22 +142,30 @@ We also have 58 known outliers.
    
 [Machine Learning Outline](https://github.com/rmward17/Money_Ballers/blob/b0e811df45e91b197d8bbeee2e54c713f865b28a/Machine%20Learning/Machine%20Learning%20Model%20OUTLINE.docx)
 
-* We will investigate 4 different Machine Learning techniques. Multiple Linear Regression and Random Forest and Decision Tree Regression will be of particular interest but we wanted to create K Means and Neural Network models for comparison. Follow the links below to view the code. They are currently a work in progress and not complete.
+* We investigated several different Machine Learning techniques. We started with Multiple Linear Regression and Random Forest. It was clear that Random Forest was the better performer. We investigated further and actually found Decision Tree Regression out performed Random Forest. We also analyzed the data using K Means and Neural Network models for comparison, but found the dataset really isn't suited for these. Follow the links below to view the code. A brief summary of each is included. 
+
+### Multiple Linear Regression
 
 [Multiple Linear Regression](https://github.com/rmward17/Money_Ballers/blob/main/Machine%20Learning/MultipleLinearRegression_Draft2.ipynb)
 
 [Multiple Linear Regression No Pitchers](https://github.com/rmward17/Money_Ballers/blob/2ebde0dd252cf2ea68f865847ef986725a65cb12/Practice_Code/MultipleLinearRegression_No_Pitchers.ipynb)
+
 Notes:
 - The data is set up well for this model however, the R-Squared is very low after the first attempt (version = Draft2). Next steps are to analyze the parameters currently in the model to see which ones may not be statistically significant and also review the paramters we left out that could potentially bring up the R-Squared value.
+
+### Decision Tree Models
 
 [Decision Tree Models](https://github.com/rmward17/Money_Ballers/blob/10ecd8ba714ed73f5c81c98f0b2f27f0eb240b3f/Machine%20Learning/TreeModels_Draft3.ipynb)
 
 Notes:
 - When we ran the multiple linear regression model, the R-Squared value was very low. Since this is not ideal, we tried 2 different decision tree regression models. One is a Decision Tree Regressor and the other is a Random Forest. Originally, the accuracy scores were not that great but we back into the data and took out the pitchers as their salaries are not effected by the batting statistics that we use. Once those were removed, we re ran both models again and the accuracy scores were much better. We ran tested and trained these models on 2014 batting data with 2015 salaries so the next task is to run the model on 2015 batting stats and then compare them to the 2016 salary data. 
 
+### KMeans and Neural Network
 [KMeans](https://github.com/rmward17/Money_Ballers/blob/03d626009cb9c1acfb0e189765eee00ecdee2296/Practice_Code/KMeans_no_pitching_data.ipynb)
 
 [Neural Network](https://github.com/rmward17/Money_Ballers/blob/b0e811df45e91b197d8bbeee2e54c713f865b28a/Machine%20Learning/Final_Project_Notebooks/NN_Draft1.ipynb)
+
+### Technology
 
 * The work will be done in Google-Colab
 
