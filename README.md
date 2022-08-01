@@ -2,21 +2,36 @@
 
 ## Presentation:
 
-- Selected Topic: Our team is analyzing MLB player statistics including but not limited to: RBIs, Hits, On Base Percentage, Batting Average, Wins, Doubles, Triples, Home Runs, and position, to predict average salaries and determine if and how players are being over or under compensated within 10% of the predicted salary
-- Reasoning: We selected this topic because our team has a few baseball fans and there is plenty of baseball data out there. It is one sport that has been analyzed many times and there are many data science resources out there to help inspire and guide us during our project.
-- Data sources: In our search for data, we went to Kaggle.com and there we found a plethora of baseball data and even other similar projects to what we are aiming to do. We found multiple .csv files from 1985 – 2016 on salary data and player stats including pitching and batting stats
-- Data exploration: Using tableau and excel, we looked at all of the data available and built a few visualization to understand what data we had, how we could combine our multiple soures of data, and facilitated disucssions on how exactly we wanted to approach our topic and questions
-- Questions we are attempting to answer:
+### Selected Topic
+
+Our team is analyzing MLB player statistics including but not limited to: RBIs, Hits, On Base Percentage, Batting Average, Wins, Doubles, Triples, Home Runs, and position, to predict average salaries and determine if and how players are being over or under compensated within 10% of the predicted salary
+
+### Reasoning
+
+We selected this topic because our team has a few baseball fans and there is plenty of baseball data out there. It is one sport that has been analyzed many times and there are many data science resources out there to help inspire and guide us during our project.
+
+### Data sources
+
+In our search for data, we went to Kaggle.com and there we found a plethora of baseball data and even other similar projects to what we are aiming to do. We found multiple .csv files from 1985 – 2016 on salary data and player stats including pitching and batting stats
+
+### Data exploration
+
+Using tableau and excel, we looked at all of the data available and built a few visualization to understand what data we had, how we could combine our multiple soures of data, and facilitated disucssions on how exactly we wanted to approach our topic and questions
+
+### Questions we are attempting to answer
+
 1. What are the primary factors in determining a high or low salary?
 2. Does inflation have an impact on MLB salaries over time?
 3. How accurate will our ML model outputs be compared to the actual data and predicting the following year’s salary?
 
--	Potential Future areas of scope:
-    -	Comparing rookie data to draft rankings
-    - Predicting likelihood of injury
-    -	Predicting likelihood of Hall of Fame level success
+### Potential Future areas of scope
 
-- Communication Protcol: 
+    - Comparing rookie data to draft rankings
+    - Predicting likelihood of injury
+    - Predicting likelihood of Hall of Fame level success
+
+### Communication Protcol
+
   -	Primary communication platform: Slack 
   -	Primary technology to be used: PgAdmin, Google Colab, Tableau
   -	Send a slack message to the group about what you are working on in the GitHub and on what branch
@@ -30,16 +45,18 @@
 
 
 ## Database
+
 * Created using pgAdmin
 * Created on the PostgreSQL 11 server
-* Created with the name "Money_Ballers
 
 ### ERD
+
 An ERD diagram was created. See ERD below.
 
 ![ERDatabaseTable.png](https://github.com/rmward17/Money_Ballers/blob/b0e811df45e91b197d8bbeee2e54c713f865b28a/ERD/ERBDatabaseTable.png)
 
 ### Create tables
+
 * Open Query tool under Money_Ballers database
 * Run SQL code found in money_ballers_db_create.sql. This can be viewed by clicking the link below.
 
@@ -149,6 +166,21 @@ Notes:
 
 ## Dashboard
 
+Please follow the link below to view our Dashboard of results. It was created using Tableau and contains 3 tabs. 
+
+A) Cover and Title page
+B) Initial Analysis
+The initial analysis contains 4 charts:
+    * Top Salaries by Team
+    * Top Salaries by Player
+    * Salaries plotted aginst Homeruns and RBIs
+    * Salries plotted against Age
+C) Machine Learning Analysis
+    * 2 Correlation Analyses showing the various feature data items and how they each correlate with salary
+    * 2 Residual plots
+    * Top 10 Overpaid Players
+    * Top 10 Underpaid Players
+    
 [Dashboard](https://public.tableau.com/views/MONEY_BALLERS_DASH/SALARYSTORY2?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 
