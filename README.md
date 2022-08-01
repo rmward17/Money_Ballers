@@ -54,14 +54,14 @@ Using tableau and excel, we looked at all of the data available and built a few 
 
 An ERD diagram was created. See ERD below.
 
-![ERDatabaseTable.png](https://github.com/rmward17/Money_Ballers/blob/b0e811df45e91b197d8bbeee2e54c713f865b28a/ERD/ERBDatabaseTable.png)
+[ERDatabaseTable.png](https://github.com/rmward17/Money_Ballers/blob/b0e811df45e91b197d8bbeee2e54c713f865b28a/ERD/ERBDatabaseTable.png)
 
 ### Create tables
 
 * Open Query tool under Money_Ballers database
 * Run SQL code found in money_ballers_db_create.sql. This can be viewed by clicking the link below.
 
- [Create Database: Money_Ballers](https://github.com/rmward17/Money_Ballers/blob/e3921e05cd7f61ebc547a60939888403a79eac8b/Database/money_ballers_db_create.sql)
+[Create Database: Money_Ballers](https://github.com/rmward17/Money_Ballers/blob/e3921e05cd7f61ebc547a60939888403a79eac8b/Database/money_ballers_db_create.sql)
  
 * Code includes Create table script for each of 5 tables and select statements to check post csv import that all of the data was imported
 * 5 tables:
@@ -131,16 +131,12 @@ By using aggregate function SUM(), the batting statistics can be summed for Uniq
 
 We also have 58 known outliers. 
 
-![image](https://user-images.githubusercontent.com/98041751/179867298-29947f3a-ebe9-4cfc-a9bf-74ca38109805.png)
-
-
-
-
+[image](https://user-images.githubusercontent.com/98041751/179867298-29947f3a-ebe9-4cfc-a9bf-74ca38109805.png)
 
 ## Machine Learning: 
 * First we created a diagram of our Machine Learning Process. This can be viewed below.
 
-![Money_ballers_ML_DIAGRAM.drawio.png](https://github.com/rmward17/Money_Ballers/blob/b0e811df45e91b197d8bbeee2e54c713f865b28a/Machine%20Learning/Money_ballers_ML_DIAGRAM.drawio.png)
+[Money_ballers_ML_DIAGRAM.drawio.png](https://github.com/rmward17/Money_Ballers/blob/b0e811df45e91b197d8bbeee2e54c713f865b28a/Machine%20Learning/Money_ballers_ML_DIAGRAM.drawio.png)
 
 * Then we created an outline showing what features will be included as the y variable and X variables. Download word document to view Outline or view raw by following the link below.
    
