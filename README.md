@@ -167,9 +167,9 @@ Notes:
 
 Please follow the link below to view our Dashboard of results. It was created using Tableau and contains 3 tabs. 
 
-A) Cover and Title page
+### Cover and Title page
 
-B) Initial Analysis
+### Initial Analysis
 
 The initial analysis contains 4 charts
     
@@ -178,7 +178,7 @@ The initial analysis contains 4 charts
 * Salaries plotted aginst Homeruns and RBIs
 * Salries plotted against Age
 
-C) Machine Learning Analysis
+### Machine Learning Analysis
     
 * 2 Correlation Analyses showing the various feature data items and how they each correlate with salary
 * 2 Residual plots
