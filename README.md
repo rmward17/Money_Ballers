@@ -169,19 +169,19 @@ A) Cover and Title page
 
 B) Initial Analysis
 
-The initial analysis contains 4 charts:
+The initial analysis contains 4 charts
     
-    * Top Salaries by Team
-    * Top Salaries by Player
-    * Salaries plotted aginst Homeruns and RBIs
-    * Salries plotted against Age
+* Top Salaries by Team
+* Top Salaries by Player
+* Salaries plotted aginst Homeruns and RBIs
+* Salries plotted against Age
 
 C) Machine Learning Analysis
     
-    * 2 Correlation Analyses showing the various feature data items and how they each correlate with salary
-    * 2 Residual plots
-    * Top 10 Overpaid Players
-    * Top 10 Underpaid Players
+* 2 Correlation Analyses showing the various feature data items and how they each correlate with salary
+* 2 Residual plots
+* Top 10 Overpaid Players
+* Top 10 Underpaid Players
     
 [Dashboard](https://public.tableau.com/views/MONEY_BALLERS_DASH/SALARYSTORY2?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
