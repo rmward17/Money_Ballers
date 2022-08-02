@@ -153,15 +153,17 @@ We also have 58 known outliers.
 [Multiple Linear Regression No Pitchers](https://github.com/rmward17/Money_Ballers/blob/2ebde0dd252cf2ea68f865847ef986725a65cb12/Practice_Code/MultipleLinearRegression_No_Pitchers.ipynb)
 
 Notes:
-- The data is set up well for this model however, the R-Squared is very low after the first attempt (version = Draft2). Next steps are to analyze the parameters currently in the model to see which ones may not be statistically significant and also review the paramters we left out that could potentially bring up the R-Squared value.
+* The data is set up well for this model however, the R-Squared is very low after the first attempt (version = Draft2). Next steps are to analyze the parameters currently in the model to see which ones may not be statistically significant and also review the paramters we left out that could potentially bring up the R-Squared value.
 
 ### Decision Tree Models
 
 [Decision Tree Models](https://github.com/rmward17/Money_Ballers/blob/10ecd8ba714ed73f5c81c98f0b2f27f0eb240b3f/Machine%20Learning/TreeModels_Draft3.ipynb)
 
 Notes:
-- When we ran the multiple linear regression model, the R-Squared value was very low. Since this is not ideal, we tried 2 different decision tree regression models. One is a Decision Tree Regressor and the other is a Random Forest. Originally, the accuracy scores were not that great but we back into the data and took out the pitchers as their salaries are not effected by the batting statistics that we use. Once those were removed, we re ran both models again and the accuracy scores were much better. We ran tested and trained these models on 2014 batting data with 2015 salaries so the next task is to run the model on 2015 batting stats and then compare them to the 2016 salary data. 
+* When we ran the multiple linear regression model, the R-Squared value was very low. Since this is not ideal, we tried 2 different decision tree regression models. One is a Decision Tree Regressor and the other is a Random Forest. Originally, the accuracy scores were not that great but we back into the data and took out the pitchers as their salaries are not effected by the batting statistics that we use. Once those were removed, we re ran both models again and the accuracy scores were much better. We ran tested and trained these models on 2014 batting data with 2015 salaries so the next task is to run the model on 2015 batting stats and then compare them to the 2016 salary data. 
 
+* We chose our features primarily based on the correlation chart created during the machine learning process. The code is included in the code above and the chart can be accessed clicking the link below. This was where we started. There was also a lot of trial and error, adding and removing features, to see what produced a better score. We even went as far as to add the pitchers back, join pitching data, and look at pitching features with the batting features to have the model better predict the pitchers but this did not improve performance. 
+  
 ### KMeans and Neural Network
 [KMeans](https://github.com/rmward17/Money_Ballers/blob/03d626009cb9c1acfb0e189765eee00ecdee2296/Practice_Code/KMeans_no_pitching_data.ipynb)
 
