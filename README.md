@@ -166,11 +166,6 @@ Notes:
 
 [Correlation Matrix](https://github.com/rmward17/Money_Ballers/blob/439eeb04f612ef9a56932a8c451c2c1816b31edd/Dashboard/Salary_Matrix.png)
 
-### KMeans and Neural Network
-[KMeans](https://github.com/rmward17/Money_Ballers/blob/03d626009cb9c1acfb0e189765eee00ecdee2296/Practice_Code/KMeans_no_pitching_data.ipynb)
-
-[Neural Network](https://github.com/rmward17/Money_Ballers/blob/b0e811df45e91b197d8bbeee2e54c713f865b28a/Machine%20Learning/Final_Project_Notebooks/NN_Draft1.ipynb)
-
 ### Technology
 
 * The work will be done in Google-Colab
