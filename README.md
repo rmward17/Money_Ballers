@@ -172,9 +172,9 @@ Notes:
 
 ## Dashboard
 
-Please follow the link below to view our Dashboard of results. It was created using Tableau and contains 3 tabs. 
+Please follow the link below to view our Dashboard of results. It was created using Tableau and contains *4* tabs. 
 
-[Dashboard](https://public.tableau.com/app/profile/jonathan.morales3105/viz/MONEY_BALLERS_DASH/TheFinalStory2)
+[Dashboard](https://public.tableau.com/views/MONEY_BALLERS_DASH/TheFinalStory2)
 
 ### Cover and Title page
 
